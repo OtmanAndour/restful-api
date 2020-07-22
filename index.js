@@ -12,7 +12,7 @@ const app = express();
 //   next();
 // });
 
-//app.use(bodyParser.json());
+//Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
